@@ -326,7 +326,7 @@ class RadarWindow(QMainWindow):
 
         frame_cube = self.data[frame_idx] # [rx, chirp, sample]
 
-        rd_power, rd_db = compute_range_doppler(frame_cube, rx_idx=rx_idx clutter_removal=True)
+        rd_power, rd_db = compute_range_doppler(frame_cube, rx_idx=rx_idx, clutter_removal=True)
 
         fs = self.fs_spin.value()
         slope = self.slope_spin.value()
