@@ -2,6 +2,7 @@
 
 This project demonstrates a FMCW radar processing chain with three core steps: **Range–Doppler**, **Angle of Arrival (AoA)**, and **CA‑CFAR** detection.
 
+The executable can be downloaded from the dist folder.
 ---
 
 ## 1) Range–Doppler (RD)
